@@ -29,12 +29,12 @@ namespace BotLotoFacilJson
             Resultado resultadoLotoFacil = JsonConvert.DeserializeObject<Resultado>(json);
             Console.WriteLine(resultadoLotoFacil.ResultadoOrdenado);
             Console.WriteLine(resultadoLotoFacil.DtApuracao);
-            Console.WriteLine("Qtde de jogadores 1 premio ${0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa1, resultadoLotoFacil.vr_rateio_faixa1);
-            Console.WriteLine("Qtde de jogadores 2 premio ${0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa2, resultadoLotoFacil.vr_rateio_faixa2);
-            Console.WriteLine("Qtde de jogadores 3 premio ${0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa3, resultadoLotoFacil.vr_rateio_faixa3);
-            Console.WriteLine("Qtde de jogadores 4 premio ${0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa4, resultadoLotoFacil.vr_rateio_faixa4);
-            Console.WriteLine("Qtde de jogadores 5 premio ${0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa5, resultadoLotoFacil.vr_rateio_faixa5);
-
+            Console.WriteLine("Qtde de jogadores 1o. premio {0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa1, resultadoLotoFacil.vr_rateio_faixa1);
+            Console.WriteLine("Qtde de jogadores 2o. premio {0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa2, resultadoLotoFacil.vr_rateio_faixa2);
+            Console.WriteLine("Qtde de jogadores 3o. premio {0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa3, resultadoLotoFacil.vr_rateio_faixa3);
+            Console.WriteLine("Qtde de jogadores 4o. premio {0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa4, resultadoLotoFacil.vr_rateio_faixa4);
+            Console.WriteLine("Qtde de jogadores 5o. premio {0} no valor de  {1}", resultadoLotoFacil.qt_ganhador_faixa5, resultadoLotoFacil.vr_rateio_faixa5);
+            Console.WriteLine("Valor estimado {0}", resultadoLotoFacil.VrEstimativa);
             Console.ReadKey();
         }
     }
